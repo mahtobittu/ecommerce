@@ -1,0 +1,314 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+#social{
+    display: flex;
+    justify-content: flex-end;
+    font-size: large;
+    padding-top: 1vh;
+}
+
+#social .div1 {
+    padding-right: 2vh;
+    border-right: 2px solid;
+    font-family: monospace;
+    padding: 0 3vh 0 2vh;
+}
+#social .div2 {
+    
+    font-family: monospace;
+    padding: 0 3vh 0 2vh;
+}
+
+#social .div2 span{
+    margin-right: 1vh;
+}
+
+h1 {
+    font-family: monospace;
+    text-align: center;
+    padding-top: 9vh;
+    letter-spacing: .2em;
+    font-size: 28px;
+    font-weight: 500;
+    color: grey;
+}
+
+
+.navi {
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+    color: grey;
+}
+
+#navigation {
+    display: flex;
+}
+.menue {
+    padding: 0px 20px 0px 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.dropDown {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.dropDown ul {
+    display: none;
+    position: absolute;
+   
+}
+
+.dropDown li{
+    width: 110px;
+    padding: 1vh 0vh 1vh 0vh;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+}
+
+
+
+.dropDown:hover ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+}
+
+#hamcontainer{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    
+}
+
+#hamburger{
+    height: 36px;
+}
+
+#hamburger div{
+    width: 25px;
+    height: 2px;
+    background-color: #808088;
+    margin-top: 7px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    
+  }
+  
+  .dot{
+    background-color: #837775;
+    width: 35px;
+    height: 2px;
+    transition: 400ms ease-in;
+    margin-top: 7px; 
+    background-color: grey;
+    
+    }  
+  
+  .fox0{ 
+    transform: rotate(45deg) translate(-1px ,6px);
+        }
+  
+  .fox1{ 
+    background-color: transparent;
+    transition:none;
+       }
+  
+  .fox2{
+    transform: rotate(-45deg) translate( 5px,-13px);
+    }
+  
+    .menue22{
+      transition: 2s;
+      width: 100vw;
+      height: 100vh;
+      background: white;
+      display: none;
+      position: absolute;   
+      }
+    
+      .vis{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+          }
+  
+          .mm{
+  
+            color: grey;
+            font-family: sans-serif;
+            font-size: 23px;
+            letter-spacing: .1em;
+            font-weight: 100;
+            line-height: 42px;
+  
+          }
+         .mm:hover{
+          color: black;
+          }
+
+ul {
+    list-style: none;
+}
+
+.mySlides {display:none;}
+.w3-content {
+    max-width: -webkit-fill-available;
+}
+
+.mySlides1{
+    width: 100%;
+    height: 100%;
+}
+
+
+        /* products */
+
+        #OurProducts {
+            padding: 15px;
+        }
+
+        #OurProducts h3 {
+            width: fit-content;
+            margin: auto;
+        }
+
+        #cartHolder {
+            display: flex;
+            flex-flow: row;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            justify-content: space-evenly;
+        }
+        .ProductCart {
+            width: 300px;
+            height: 352px;
+            background: white;
+            margin-top: 3vh;
+            padding-bottom: 1vh;           
+        }
+
+        .ProductCart:hover{
+                
+            border: 1px solid #00000021;
+            box-shadow: 0px 0px 1px -1px;
+        }
+
+         .spantwo:hover{
+            color: #8f8780;
+        }
+        .ProductCart .div1 {
+            height: 80%;
+            width: 100%;
+            background-color: #c0a277a8;
+            background-image: url(https://cdn11.bigcommerce.com/s-n0i50vy/images/stencil/500x659/products/97/325/tieredbasket_1024x1024__81717.1456436704.jpg?c=2);
+            background-position: center;
+            background-size: contain;
+        }
+
+        .ProductCart .div1 img{
+            max-width: 100%;
+        }
+        .ProductCart .div2 {
+            height: 20%;
+            box-sizing: border-box;
+            padding-left: 2vh;
+            padding-top: 4px;
+            color: grey;
+            line-height: 22px;
+            font-family: monospace;
+            font-weight: 500;
+        }
+
+        .spanone{    margin-left: 1vh;}
+        .spantwo{     margin-left: 1vh; color: #000000bf;}
+        .spanthree{    margin-left: 1vh;}
+
+
+        .newproducts{
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+            font-family: monospace;
+            text-align: -webkit-center;
+        }
+
+        .discount {
+            background-color: #4f4f4f;
+            color: white;
+            text-align: -webkit-center;
+            padding : .78571rem;
+            margin-top: 4vh;
+            text-decoration: underline;
+        }
+
+    
+    @media screen and (max-width:700px){
+
+       #social{
+        display: none;
+       }
+
+       .navi{
+           display: none;
+       }
+
+       h1{
+           padding-top: 0px;
+           font-size: larger;
+       }
+
+       
+      
+    
+    
+    }
+
+    @media screen and (min-width:700px){
+
+        #hamcontainer {
+            display: block;
+        }
+
+        #hamburger{
+            display: none;
+        }
+       
+        #cart{
+            display: none;
+        }
+        #container{
+            display: none;
+        }
+       
+        
+    }
+
+        
+        
